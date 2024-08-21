@@ -29,8 +29,6 @@ intents:
   - no_internet_fixing_internet
   - no_wifi_fixing_internet
   - need_new_router_fixing_internet
-  - mood_happy
-  - mood_unhappy
   - mood_angry
   - mood_scared
   - mood_nervous
@@ -44,14 +42,14 @@ intents:
   - show_my_order_status
   - finish_and_pay_retail
   - need_more_time_retail
-  - greet_smalltalk
-  - goodbyes_smalltalk
-  - affirm_smalltalk
-  - deny_smalltalk
-  - bot_challenge
   - type_weather
   - temperature_weather
   - ask_forecast_weather
+  - mood_lonely
+  - lost_card
+  - show_statement
+
+
 
 
 responses:
@@ -71,8 +69,6 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
 
   utter_currency:
   - text: "I can help you with information about different currencies. Which one are you interested in?"
@@ -137,8 +133,6 @@ responses:
   utter_need_new_router_fixing_internet:
   - text: "If you need a new router, I can assist you with that."
 
-  utter_mood_happy:
-  - text: "I'm glad to hear you're happy!"
 
   utter_mood_unhappy:
   - text: "I'm sorry to hear that you're feeling sad."
@@ -168,7 +162,7 @@ responses:
   - text: "What type of restaurant are you looking for?"
 
   utter_table_reservation:
- - text: "I can help you book a table. For how many people?"
+  - text: "I can help you book a table. For how many people?"
 
   utter_restaurant_review:
   - text: "I'm glad you enjoyed the restaurant. Anything else I can help with?"
@@ -182,18 +176,6 @@ responses:
   utter_need_more_time_retail:
   - text: "Take your time. Let me know when you're ready."
 
-  utter_greet_smalltalk:
-  - text: "Hi! How can I assist you today?"
-
-  utter_goodbyes_smalltalk:
-  - text: "Goodbye! Have a great day!"
-
-  utter_affirm_smalltalk:
-  - text: "Yes, how can I help you further?"
-
-  utter_deny_smalltalk:
-  - text: "No, is there something else you need?"
-
   utter_bot_challenge:
   - text: "Yes, I am a bot. How can I assist you today?"
 
@@ -205,6 +187,16 @@ responses:
 
   utter_ask_forecast_weather:
   - text: "I can provide the weather forecast for today. What location are you interested in?"
+
+  utter_lost_card:
+  - text: "I'm sorry to hear you've lost your card. Please contact customer support for assistance."
+
+  utter_mood_lonely:
+  - text: "I'm sorry you're feeling lonely. Is there anything I can do to help or talk about?"
+
+  utter_show_statement:
+  - text: "I can help with that. Please provide your account details so I can show you your statement history."
+
 
 
 session_config:

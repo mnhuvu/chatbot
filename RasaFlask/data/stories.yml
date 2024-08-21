@@ -44,10 +44,6 @@ stories:
   - intent: show_credit_cards
   - action: utter_show_credit_cards
 
-- story: User is feeling happy
-  steps:
-  - intent: mood_happy
-  - action: utter_mood_happy
 
 - story: User wants to find a restaurant
   steps:
@@ -209,27 +205,62 @@ stories:
   - intent: mood_tired
   - action: utter_mood_tired
 
-- story: User needs help with fixing internet issues
-  steps:
-  - intent: no_wifi_fixing_internet
-  - action: utter_no_wifi_fixing_internet
-
 - story: User wants to check account details
   steps:
   - intent: show_accounts
   - action: utter_show_accounts
 
-- story: User wants to inquire about a retirement plan
+- story: Handle lost card
   steps:
-  - intent: retirement_plan
-  - action: utter_retirement_plan
+  - intent: lost_card
+  - action: utter_lost_card
 
-- story: User asks about car's age
+- story: Respond to mood lonely
   steps:
-  - intent: choose_age_of_car
-  - action: utter_choose_age_of_car
+  - intent: mood_lonely
+  - action: utter_mood_lonely
 
-- story: User mentions slow internet
+- story: Show account statement
+  steps:
+  - intent: show_statement
+  - action: utter_show_statement
+
+- story: user is unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
+
+- story: user is angry
+  steps:
+  - intent: mood_angry
+  - action: utter_mood_angry
+
+- story: user is scared
+  steps:
+  - intent: mood_scared
+  - action: utter_mood_scared
+
+- story: user is nervous
+  steps:
+  - intent: mood_nervous
+  - action: utter_mood_nervous
+
+- story: User reports slow internet
   steps:
   - intent: internet_is_slow_fixing_internet
   - action: utter_internet_is_slow_fixing_internet
+
+- story: User reports no internet
+  steps:
+  - intent: no_internet_fixing_internet
+  - action: utter_no_internet_fixing_internet
+
+- story: User reports no wifi
+  steps:
+  - intent: no_wifi_fixing_internet
+  - action: utter_no_wifi_fixing_internet
+
+- story: User needs a new router
+  steps:
+  - intent: need_new_router_fixing_internet
+  - action: utter_need_new_router_fixing_internet

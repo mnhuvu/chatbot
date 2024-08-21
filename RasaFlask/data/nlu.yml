@@ -16,6 +16,15 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - howdy
+    - heya
+    - hihi
+    - sup
+    - what's up
+    - hey there
+    - hello buddy
+    - wazzup
+    - yo
 
 - intent: goodbye
   examples: |
@@ -29,6 +38,9 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - talk to you later
+    - cya
+    - ciao
 
 - intent: affirm
   examples: |
@@ -38,6 +50,13 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - yep
+    - yeah
+    - that's right
+    - ok
+    - great
+    - perfect
+    - sounds great
 
 - intent: deny
   examples: |
@@ -51,37 +70,97 @@ nlu:
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
+    - Perfect
+    - Great
+    - Amazing
+    - Feeling like a king
+    - Wonderful
     - I am feeling very good
     - I am great
     - I am amazing
     - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - Super stoked
+    - Extremely good
+    - So so perfect
+    - So good
+    - So perfect
+    - I am happy
+    - I feel great
+    - I'm fine
+    - I had a great day
+    - Me, wonderful!
+    - I am amazed
+    - You are too cool
+    - I am loving it
+    - I am starting to like this
+    - Doing fine
+    - Never better
+    - Feeling lucky
+    - All great here
+    - Fantastic day
+    - What a great day
+    - I'm inspired
+    - It's perfect
+    - I feel wonderful
+    - I'm good
+    - I'm feeling awesome
+    - I'm feeling happy
+    - Today is an awesome day!
+    - I'm so glad
+    - I'm just really happy right now
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
+    - My day was horrible
     - I am sad
     - I don't feel very well
     - I am disappointed
-    - super sad
+    - Super sad
     - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - Sad
+    - Very sad
+    - Unhappy
+    - Not good
+    - Extremely sad
+    - So sad
+    - This is bad
+    - I am sick
+    - I am ill
+    - I am all low today
+    - It's disappointing
+    - How irritating it is
+    - Am irritated
+    - I am not feeling well
+    - This sucks!
+    - I am feeling too bad
+    - Worst day ever!
+    - This feels bad
+    - I feel low
+    - Everything is bad today
+    - Feels horrible
+    - This is depressing
+    - I am depressed
+    - I feel bored
+    - I am feeling bored
+    - Life is boring
+    - I am feeling empty
+    - I feel useless
+    - Awful
+    - Depressed
+    - Heavy
+    - I am feeling quite lost
+    - Bad
+    - Very bad
+    - Terrible
+    - I'm feeling down
+    - I'm not okay
+    - I'm feeling low
+    - I'm awful
+    - I'm uneasy
+    - Actually I'm not fine
+    - I am as lonely as can be
+    - I am going through a rather rough time
+    - I'm grieving
 
 - intent: bot_challenge
   examples: |
@@ -89,6 +168,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - are you a robot?
+    - am I talking to an actual person?
+    - you're a bot aren't you?
+    - are you even a real person?
 
 - intent: currency
   examples: |
@@ -582,7 +665,6 @@ nlu:
     - What are the things I can do online and not over the phone
     - Are there things that I can only do online?
     - Please retrieve my transaction log
-    - I would like to see my bank account statement history
 
 - intent: locate_car_dealer
   examples: |
@@ -725,92 +807,8 @@ nlu:
     - router is dead
     - need a stronger router
     - cannot connect more devices
-- intent: mood_happy
-  examples: |
-    - I am happy
-    - I feel great
-    - I'm fine
-    - I had a great day
-    - Me, wonderful!
-    - I am amazed
-    - You are too cool
-    - I am loving it
-    - I am starting to like this
-    - I am feeling great
-    - Doing fine
-    - Never better
-    - Feeling lucky
-    - All great here
-    - Fantastic day
-    - What a great day
-    - I'm inspired
-    - It's perfect
-    - amazing
-    - I feel wonderful
-    - I am feeling very good
-    - I am great
-    - I'm good
-    - I'm feeling awesome
-    - I'm feeling happy
-    - Today is an awesome day!
-    - I'm so glad
-    - I'm just really happy right now
-- intent: mood_unhappy
-  examples: |
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - my day was horrible
-    - This is bad
-    - I am sick
-    - I am ill
-    - I am all low today
-    - Its dissapointing
-    - How irritating it is
-    - Am irritated
-    - I am not feeling well
-    - This sucks!
-    - I am feeling too bad
-    - Worst day ever!
-    - This feels bad
-    - I feel low
-    - Everything is bad today
-    - I feel very sad
-    - Feels horrible
-    - This is depressing
-    - I am depressed
-    - I feel bored
-    - I am feeling bored
-    - life is boring
-    - I am feeling empty
-    - I feel useless
-    - aweful
-    - depressed
-    - heavy
-    - I am feeling quite lost
-    - very sad
-    - unhappy
-    - bad
-    - very bad
-    - awful
-    - terrible
-    - not very good
-    - extremely sad
-    - so sad
-    - Im feeling down
-    - I'm feeling sad
-    - Im feeling sad
-    - Im not okay
-    - Im feeling low
-    - Not good
-    - I'm awful
-    - I'm feeling very sad
-    - I'm uneasy
-    - Actually I'm not fine
-    - I'm not good
-    - I am as lonely as can be
-    - I am going through a rather rough time
-    - I'm grieving
+
+
 - intent: mood_angry
   examples: |
     - I am angry
@@ -856,7 +854,6 @@ nlu:
     - That is intimidating
     - I am petrified
     - I am afraid
-    - I feel anxious
     - I'm having a bad feeling
     - I'm fearful
     - I panicked
@@ -1076,68 +1073,10 @@ nlu:
     - one second
     - one minute
     - hold on
-- intent: greet_smalltalk
-  examples: |
-    - hi
-    - hello
-    - howdy
-    - hey
-    - heya
-    - hihi
-    - sup
-    - what's up
-    - hey there
-    - hello buddy
-    - wazzup
-    - yo
-- intent: goodbyes_smalltalk
-  examples: |
-    - goodbye
-    - bye
-    - see you later
-    - talk to you later
-    - cya
-    - ciao
-- intent: affirm_smalltalk
-  examples: |
-    - yes
-    - yep
-    - yeah
-    - indeed
-    - that's right
-    - ok
-    - great
-    - correct
-    - perfect
-    - sounds good
-    - sounds great
-- intent: deny_smalltalk
-  examples: |
-    - no
-    - nope
-    - no way
-    - not true
-    - no thanks
-    - nah
-    - never
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-    - are you a robot?
-    - am I talking to an actual person?
-    - you're a bot aren't you?
-    - are you even a real person?
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-    - are you a robot?
-    - am I talking to an actual person?
-    - you're a bot aren't you?
-    - are you even a real person?
+
+
+
+
 - intent: type_weather
   examples: |
     - air
@@ -1211,7 +1150,6 @@ nlu:
     - partly cloudy
     - partly sunny
     - precipitation
-    - pressure
     - puff of wind
     - rain
     - rain and snow
@@ -1279,7 +1217,6 @@ nlu:
     - degrees Celsius
     - degrees centigrade
     - degrees Fahrenheit
-    - humidity
     - mercury
     - pressure
     - synoptic
@@ -1287,7 +1224,6 @@ nlu:
     - temperatures are in the mid
     - thermometer
     - usual temperature
-    - weather
     - weather forecast
     - weather station
     - weatherman

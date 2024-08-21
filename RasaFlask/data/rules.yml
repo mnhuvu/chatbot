@@ -7,144 +7,24 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
 
-- rule: Greet and farewell
-  steps:
-  - intent: greet_smalltalk
-  - action: utter_greet_smalltalk
-  - intent: goodbyes_smalltalk
-  - action: utter_goodbyes_smalltalk
 
-- rule: Handle mood responses
-  steps:
-  - intent: mood_happy
-  - action: utter_mood_happy
-  - intent: mood_unhappy
-  - action: utter_mood_unhappy
-  - intent: mood_angry
-  - action: utter_mood_angry
-  - intent: mood_scared
-  - action: utter_mood_scared
-  - intent: mood_nervous
-  - action: utter_mood_nervous
-  - intent: mood_bored
-  - action: utter_mood_bored
-  - intent: mood_excited
-  - action: utter_mood_excited
-  - intent: mood_tired
-  - action: utter_mood_tired
 
-rules:
-- rule: User asks about currency
-  steps:
-  - intent: currency
-  - action: utter_currency
 
-- rule: User wants to transfer money
-  steps:
-  - intent: transfer_money
-  - action: utter_transfer_money
 
-- rule: User inquires about crypto currency
-  steps:
-  - intent: crypto_currency
-  - action: utter_crypto_currency
 
-- rule: User wants to know the interest rate
-  steps:
-  - intent: interest_rate
-  - action: utter_interest_rate
 
-- rule: User wants to change their PIN
-  steps:
-  - intent: change_pin
-  - action: utter_change_pin
 
-- rule: User inquires about retirement plans
-  steps:
-  - intent: retirement_plan
-  - action: utter_retirement_plan
 
-- rule: User wants to access online banking
-  steps:
-  - intent: online_banking
-  - action: utter_online_banking
 
-- rule: User wants to find a car dealer
-  steps:
-  - intent: locate_car_dealer
-  - action: utter_locate_car_dealer
 
-- rule: User provides budget for car purchase
-  steps:
-  - intent: choose_budget
-  - action: utter_choose_budget
 
-- rule: User asks about the type of car
-  steps:
-  - intent: choose_car_type
-  - action: utter_choose_car_type
 
-- rule: User specifies car's nationality
-  steps:
-  - intent: choose_nationality_car
-  - action: utter_choose_nationality_car
 
-- rule: User prefers the age of the car
-  steps:
-  - intent: choose_age_of_car
-  - action: utter_choose_age_of_car
 
-- rule: User wants to find a restaurant
-  steps:
-  - intent: locate_restaurant
-  - action: utter_locate_restaurant
 
-- rule: User requests a table reservation
-  steps:
-  - intent: table_reservation
-  - action: utter_table_reservation
 
-- rule: User leaves a restaurant review
-  steps:
-  - intent: restaurant_review
-  - action: utter_restaurant_review
 
-- rule: User is experiencing slow internet
-  steps:
-  - intent: internet_is_slow_fixing_internet
-  - action: utter_internet_is_slow_fixing_internet
 
-- rule: User has no internet connection
-  steps:
-  - intent: no_internet_fixing_internet
-  - action: utter_no_internet_fixing_internet
 
-- rule: User has no WiFi signal
-  steps:
-  - intent: no_wifi_fixing_internet
-  - action: utter_no_wifi_fixing_internet
 
-- rule: User needs a new router
-  steps:
-  - intent: need_new_router_fixing_internet
-  - action: utter_need_new_router_fixing_internet
-
-- rule: User reports being bored
-  steps:
-  - intent: mood_bored
-  - action: utter_mood_bored
-
-- rule: User is excited
-  steps:
-  - intent: mood_excited
-  - action: utter_mood_excited
-
-- rule: User is tired
-  steps:
-  - intent: mood_tired
-  - action: utter_mood_tired
