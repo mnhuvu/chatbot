@@ -28,3 +28,208 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: User asks for currency
+  steps:
+  - intent: currency
+  - action: utter_currency
+
+- story: User wants to transfer money
+  steps:
+  - intent: transfer_money
+  - action: utter_transfer_money
+
+- story: User asks about credit cards
+  steps:
+  - intent: show_credit_cards
+  - action: utter_show_credit_cards
+
+- story: User is feeling happy
+  steps:
+  - intent: mood_happy
+  - action: utter_mood_happy
+
+- story: User wants to find a restaurant
+  steps:
+  - intent: locate_restaurant
+  - action: utter_locate_restaurant
+
+- story: User needs to book a table
+  steps:
+  - intent: table_reservation
+  - action: utter_table_reservation
+
+- story: User wants to change PIN
+  steps:
+  - intent: change_pin
+  - action: utter_change_pin
+
+- story: User inquires about retirement plans
+  steps:
+  - intent: retirement_plan
+  - action: utter_retirement_plan
+
+- story: User asks about cryptocurrency
+  steps:
+  - intent: crypto_currency
+  - action: utter_crypto_currency
+
+- story: User wants to know the interest rate
+  steps:
+  - intent: interest_rate
+  - action: utter_interest_rate
+
+- story: User encounters slow internet
+  steps:
+  - intent: internet_is_slow_fixing_internet
+  - action: utter_internet_is_slow_fixing_internet
+
+- story: User has no internet connection
+  steps:
+  - intent: no_internet_fixing_internet
+  - action: utter_no_internet_fixing_internet
+
+- story: User reports no WiFi signal
+  steps:
+  - intent: no_wifi_fixing_internet
+  - action: utter_no_wifi_fixing_internet
+
+- story: User needs a new router
+  steps:
+  - intent: need_new_router_fixing_internet
+  - action: utter_need_new_router_fixing_internet
+
+- story: User asks about car types
+  steps:
+  - intent: choose_car_type
+  - action: utter_choose_car_type
+
+- story: User specifies nationality for car
+  steps:
+  - intent: choose_nationality_car
+  - action: utter_choose_nationality_car
+
+- story: User provides budget for car purchase
+  steps:
+  - intent: choose_budget
+  - action: utter_choose_budget
+
+- story: User indicates preference for car age
+  steps:
+  - intent: choose_age_of_car
+  - action: utter_choose_age_of_car
+
+- story: User asks about computer science courses
+  steps:
+  - intent: Computer_Science_Courses
+  - action: utter_Computer_Science_Courses
+
+- story: User inquires about management courses
+  steps:
+  - intent: Management_Courses
+  - action: utter_Management_Courses
+
+- story: User looks for literature courses
+  steps:
+  - intent: Literature_Courses
+  - action: utter_Literature_Courses
+
+- story: User is bored
+  steps:
+  - intent: mood_bored
+  - action: utter_mood_bored
+
+- story: User wants to check order status
+  steps:
+  - intent: show_my_order_status
+  - action: utter_show_my_order_status
+
+- story: User wants to finish and pay for retail
+  steps:
+  - intent: finish_and_pay_retail
+  - action: utter_finish_and_pay_retail
+
+- story: User needs more time for retail
+  steps:
+  - intent: need_more_time_retail
+  - action: utter_need_more_time_retail
+
+- story: User asks if the bot is a bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- story: User asks about weather type
+  steps:
+  - intent: type_weather
+  - action: utter_type_weather
+
+- story: User inquires about temperature
+  steps:
+  - intent: temperature_weather
+  - action: utter_temperature_weather
+
+- story: User asks for weather forecast
+  steps:
+  - intent: ask_forecast_weather
+  - action: utter_ask_forecast_weather
+
+- story: User wants to access online banking
+  steps:
+  - intent: online_banking
+  - action: utter_online_banking
+
+- story: User wants to locate a car dealer
+  steps:
+  - intent: locate_car_dealer
+  - action: utter_locate_car_dealer
+
+- story: User wants to know about restaurant types
+  steps:
+  - intent: restaurant_type
+  - action: utter_restaurant_type
+
+- story: User requests a table reservation
+  steps:
+  - intent: table_reservation
+  - action: utter_table_reservation
+
+- story: User leaves a restaurant review
+  steps:
+  - intent: restaurant_review
+  - action: utter_restaurant_review
+
+- story: User is excited
+  steps:
+  - intent: mood_excited
+  - action: utter_mood_excited
+
+- story: User is tired
+  steps:
+  - intent: mood_tired
+  - action: utter_mood_tired
+
+- story: User needs help with fixing internet issues
+  steps:
+  - intent: no_wifi_fixing_internet
+  - action: utter_no_wifi_fixing_internet
+
+- story: User wants to check account details
+  steps:
+  - intent: show_accounts
+  - action: utter_show_accounts
+
+- story: User wants to inquire about a retirement plan
+  steps:
+  - intent: retirement_plan
+  - action: utter_retirement_plan
+
+- story: User asks about car's age
+  steps:
+  - intent: choose_age_of_car
+  - action: utter_choose_age_of_car
+
+- story: User mentions slow internet
+  steps:
+  - intent: internet_is_slow_fixing_internet
+  - action: utter_internet_is_slow_fixing_internet
