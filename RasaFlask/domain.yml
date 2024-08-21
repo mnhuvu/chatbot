@@ -8,6 +8,51 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - currency
+  - transfer_money
+  - crypto_currency
+  - show_accounts
+  - show_credit_cards
+  - interest_rate
+  - change_pin
+  - retirement_plan
+  - online_banking
+  - locate_car_dealer
+  - choose_car_type
+  - choose_nationality_car
+  - choose_budget
+  - choose_age_of_car
+  - Computer_Science_Courses
+  - Management_Courses
+  - Literature_Courses
+  - internet_is_slow_fixing_internet
+  - no_internet_fixing_internet
+  - no_wifi_fixing_internet
+  - need_new_router_fixing_internet
+  - mood_happy
+  - mood_unhappy
+  - mood_angry
+  - mood_scared
+  - mood_nervous
+  - mood_bored
+  - mood_excited
+  - mood_tired
+  - locate_restaurant
+  - restaurant_type
+  - table_reservation
+  - restaurant_review
+  - show_my_order_status
+  - finish_and_pay_retail
+  - need_more_time_retail
+  - greet_smalltalk
+  - goodbyes_smalltalk
+  - affirm_smalltalk
+  - deny_smalltalk
+  - bot_challenge
+  - type_weather
+  - temperature_weather
+  - ask_forecast_weather
+
 
 responses:
   utter_greet:
@@ -28,6 +73,139 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_currency:
+  - text: "I can help you with information about different currencies. Which one are you interested in?"
+
+  utter_transfer_money:
+  - text: "I can assist you with transferring money. Please provide the details."
+
+  utter_crypto_currency:
+  - text: "I can provide information about cryptocurrencies. Which one are you interested in?"
+
+  utter_show_accounts:
+  - text: "Sure, I will list your accounts."
+
+  utter_show_credit_cards:
+  - text: "I will show you your credit cards."
+
+  utter_interest_rate:
+  - text: "Let me check the current interest rate for you."
+
+  utter_change_pin:
+  - text: "I can help you change your PIN. Please follow the instructions."
+
+  utter_retirement_plan:
+  - text: "I can provide information about retirement plans. What are you looking for?"
+
+  utter_online_banking:
+  - text: "I can help you with online banking. What would you like to know?"
+
+  utter_locate_car_dealer:
+  - text: "I will find the closest car dealer for you."
+
+  utter_choose_car_type:
+  - text: "Please specify the type of car you are interested in."
+
+  utter_choose_nationality_car:
+  - text: "Which nationality of car are you interested in?"
+
+  utter_choose_budget:
+  - text: "What is your budget for the car?"
+
+  utter_choose_age_of_car:
+  - text: "Do you prefer a new or used car?"
+
+  utter_Computer_Science_Courses:
+  - text: "We offer a variety of computer science courses, including C++ and Python programming."
+
+  utter_Management_Courses:
+  - text: "We offer management courses such as Banking and Finance."
+
+  utter_Literature_Courses:
+  - text: "Our literature courses include English and French literature."
+
+  utter_internet_is_slow_fixing_internet:
+  - text: "It sounds like your internet connection is slow. Let me help you fix it."
+
+  utter_no_internet_fixing_internet:
+  - text: "It seems you have no internet connection. Let's troubleshoot this issue."
+
+  utter_no_wifi_fixing_internet:
+  - text: "It looks like there is no WiFi signal. I can help you with this."
+
+  utter_need_new_router_fixing_internet:
+  - text: "If you need a new router, I can assist you with that."
+
+  utter_mood_happy:
+  - text: "I'm glad to hear you're happy!"
+
+  utter_mood_unhappy:
+  - text: "I'm sorry to hear that you're feeling sad."
+
+  utter_mood_angry:
+  - text: "It sounds like you're feeling angry. How can I help?"
+
+  utter_mood_scared:
+  - text: "It sounds like you're feeling scared. Is there anything I can do?"
+
+  utter_mood_nervous:
+  - text: "I understand that you're feeling nervous. How can I assist you?"
+
+  utter_mood_bored:
+  - text: "It seems you're feeling bored. Can I suggest something for you to do?"
+
+  utter_mood_excited:
+  - text: "I'm glad to hear that you're excited!"
+
+  utter_mood_tired:
+  - text: "It sounds like you're feeling tired. Make sure to take a break."
+
+  utter_locate_restaurant:
+  - text: "I can help you find the closest restaurant."
+
+  utter_restaurant_type:
+  - text: "What type of restaurant are you looking for?"
+
+  utter_table_reservation:
+ - text: "I can help you book a table. For how many people?"
+
+  utter_restaurant_review:
+  - text: "I'm glad you enjoyed the restaurant. Anything else I can help with?"
+
+  utter_show_my_order_status:
+  - text: "I can check the status of your order for you."
+
+  utter_finish_and_pay_retail:
+  - text: "I will help you with the checkout process."
+
+  utter_need_more_time_retail:
+  - text: "Take your time. Let me know when you're ready."
+
+  utter_greet_smalltalk:
+  - text: "Hi! How can I assist you today?"
+
+  utter_goodbyes_smalltalk:
+  - text: "Goodbye! Have a great day!"
+
+  utter_affirm_smalltalk:
+  - text: "Yes, how can I help you further?"
+
+  utter_deny_smalltalk:
+  - text: "No, is there something else you need?"
+
+  utter_bot_challenge:
+  - text: "Yes, I am a bot. How can I assist you today?"
+
+  utter_type_weather:
+  - text: "Can you provide more details about the type of weather you're referring to?"
+
+  utter_temperature_weather:
+  - text: "I can check the temperature for you."
+
+  utter_ask_forecast_weather:
+  - text: "I can provide the weather forecast for today. What location are you interested in?"
+
 
 session_config:
   session_expiration_time: 60
