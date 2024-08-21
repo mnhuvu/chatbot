@@ -89,3 +89,1264 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: currency
+  examples: |
+    - Australian dollar
+    - Bangladeshi Taka
+    - Chinese Yuan
+    - Danish Krone
+    - Euro
+    - Indian Rupee
+    - Japanese Yen
+    - Renminbi
+    - South Korean Won
+    - Swiss Franc
+    - United States Dollar
+    - Pound Sterling
+    - Canadian Dollar
+    - Hong Kong Dollar
+    - Swedish Krona
+    - Singapore Dollar
+    - Vietnamese Dong
+    - Angolan Kwanza
+    - philippine peso
+    - Afghani
+    - Algerian Dinar
+    - Andorran Peseta
+    - Argentine Peso
+    - Armenian Dram
+    - Aruban Florin
+    - Austral
+    - Azerbaijan Manat
+    - Azerbaijanian Manat
+    - Bahamian Dollar
+    - Bahraini Dinar
+    - Baht
+    - Balboa
+    - Barbados Dollar
+    - Belarusian Ruble
+    - Belgian Franc
+    - Belize Dollar
+    - Bermudian Dollar
+    - Bolivar
+    - Bolivar Fuerte
+    - Boliviano
+    - Bolívar
+    - Bolívar Soberano
+    - Brazilian Real
+    - Brunei Dollar
+    - Bulgarian Lev
+    - Burundi Franc
+    - CFA Franc BCEAO
+    - CFA Franc BEAC
+    - CFP Franc
+    - Cabo Verde Escudo
+    - Cayman Islands Dollar
+    - Cedi
+    - Chilean Peso
+    - Colombian Peso
+    - Comorian Franc
+    - Congolese Franc
+    - Convertible Franc
+    - Convertible Mark
+    - Cordoba
+    - Cordoba Oro
+    - Costa Rican Colon
+    - Croatian Dinar
+    - Croatian Kuna
+    - Cruzado
+    - Cruzeiro
+    - Cruzeiro Real
+    - Cuban Peso
+    - Cyprus Pound
+    - Czech Koruna
+    - Dalasi
+    - Denar
+    - Deutsche Mark
+    - Dinar
+    - Djibouti Franc
+    - Dobra
+    - Dominican Peso
+    - Dong
+    - Drachma
+    - East Caribbean Dollar
+    - Egyptian Pound
+    - Ekwele
+    - El Salvador Colon
+    - Ethiopian Birr
+    - European Currency Unit (E.C.U)
+    - Falkland Islands Pound
+    - Fiji Dollar
+    - Financial Franc
+    - Financial Rand
+    - Forint
+    - French Franc
+    - Georgian Coupon
+    - Ghana Cedi
+    - Gibraltar Pound
+    - Gold
+    - Gold-Franc
+    - Gourde
+    - Guarani
+    - Guinea Escudo
+    - Guinea-Bissau Peso
+    - Guinean Franc
+    - Guyana Dollar
+    - Hryvnia
+    - Iceland Krona
+    - Inti
+    - Iranian Rial
+    - Iraqi Dinar
+    - Irish Pound
+    - Italian Lira
+    - Jamaican Dollar
+    - Jordanian Dinar
+    - Karbovanet
+    - Kenyan Shilling
+    - Kina
+    - Koruna
+    - Krona A/53
+    - Kroon
+    - Kuna
+    - Kuwaiti Dinar
+    - Kwacha
+    - Kwanza
+    - Kwanza Reajustado
+    - Kyat
+    - Lao Kip
+    - Lari
+    - Latvian Lats
+    - Latvian Ruble
+    - Lebanese Pound
+    - Lek
+    - Lempira
+    - Leone
+    - Leu A/52
+    - Lev
+    - Lev A/52
+    - Lev A/62
+    - Liberian Dollar
+    - Libyan Dinar
+    - Lilangeni
+    - Lithuanian Litas
+    - Loti
+    - Luxembourg Convertible Franc
+    - Luxembourg Financial Franc
+    - Luxembourg Franc
+    - Malagasy Ariary
+    - Malagasy Franc
+    - Malawi Kwacha
+    - Malaysian Ringgit
+    - Maldive Rupee
+    - Mali Franc
+    - Maltese Lira
+    - Maltese Pound
+    - Mark der DDR
+    - Markka
+    - Mauritius Rupee
+    - Mexican Peso
+    - Mexican Unidad de Inversion (UDI)
+    - Moldovan Leu
+    - Moroccan Dirham
+    - Mozambique Escudo
+    - Mozambique Metical
+    - Mvdol
+    - Naira
+    - Nakfa
+    - Namibia Dollar
+    - Nepalese Rupee
+    - Netherlands Antillean Guilder
+    - Netherlands Guilder
+    - New Cruzado
+    - New Dinar
+    - New Israeli Sheqel
+    - New Kwanza
+    - New Romanian Leu
+    - New Taiwan Dollar
+    - New Turkish Lira
+    - New Yugoslavian Dinar
+    - New Zaire
+    - New Zealand Dollar
+    - Ngultrum
+    - No universal currency
+    - North Korean Won
+    - Norwegian Krone
+    - Nuevo Sol
+    - Old Dong
+    - Old Krona
+    - Old Lek
+    - Old Leu
+    - Old Shekel
+    - Old Shilling
+    - Old Turkish Lira
+    - Old Uruguay Peso
+    - Ouguiya
+    - Pakistan Rupee
+    - Palladium
+    - Pataca
+    - Pathet Lao Kip
+    - Pa’anga
+    - Peso
+    - Peso Argentino
+    - Peso Convertible
+    - Peso Uruguayo
+    - Peso boliviano
+    - Platinum
+    - Portuguese Escudo
+    - Pound
+    - Pula
+    - Qatari Rial
+    - Quetzal
+    - RINET Funds Code
+    - Rand
+    - Rhodesian Dollar
+    - Rial Omani
+    - Riel
+    - Romanian Leu
+    - Rouble
+    - Rufiyaa
+    - Rupiah
+    - Russian Ruble
+    - Rwanda Franc
+    - SDR (Special Drawing Right)
+    - Saint Helena Pound
+    - Saudi Riyal
+    - Schilling
+    - Serbian Dinar
+    - Seychelles Rupee
+    - Silver
+    - Slovak Koruna
+    - Sol
+    - Solomon Islands Dollar
+    - Som
+    - Somali Shilling
+    - Somoni
+    - South Sudanese Pound
+    - Spanish Peseta
+    - Sri Lanka Rupee
+    - Sucre
+    - Sudanese Dinar
+    - Sudanese Pound
+    - Surinam Dollar
+    - Surinam Guilder
+    - Syli
+    - Syrian Pound
+    - Tajik Ruble
+    - Taka
+    - Tala
+    - Talonas
+    - Tanzanian Shilling
+    - Tenge
+    - Timor Escudo
+    - Tolar
+    - Trinidad and Tobago Dollar
+    - Tugrik
+    - Tunisian Dinar
+    - Turkish Lira
+    - Turkmenistan Manat
+    - Turkmenistan New Manat
+    - UAE Dirham
+    - UIC-Franc
+    - US Dollar
+    - Uganda Shilling
+    - Unidad Previsional
+    - Unidad de Fomento
+    - Unidad de Valor Constante (UVC)
+    - Unidad de Valor Real
+    - Uruguay Peso en Unidades Indexadas (UI)
+    - Uruguayan Peso
+    - Uzbekistan Sum
+    - Vietnamese Dong (VND)
+    - Vatu
+    - WIR Euro
+    - WIR Franc
+    - Won
+    - Yemeni Dinar
+    - Yemeni Rial
+    - Yen
+    - Yuan Renminbi
+    - Yugoslavian Dinar
+    - Zaire
+    - Zambian Kwacha
+    - Zimbabwe Dollar
+    - Zloty
+- intent: transfer_money
+  examples: |
+    - I would like to make a transfer
+    - I want to transfer money
+    - I want to pay money
+    - I want to pay someone
+    - Can I transfer money?
+    - transfer money to Alex
+    - I need to transfer money
+    - Money transfer
+    - I need to make a transference
+    - I need to make a transfer
+    - i need to send money
+    - I would like to transfer money
+    - I need to make a money transfer
+    - I need to send money
+    - I’d like to make a transfer
+    - I’d like to send money
+    - I would like to wire some money
+    - I want to make a transfer
+    - I need to go to the bank to make a transfer
+    - Make a transfer
+    - I want to send money
+    - I need to transfer
+    - I need to make an account transfer
+    - I want to do fund transfer.
+    - I want to transfer funds.
+    - I want to pay money.
+    - I would like to make a payment
+    - I want to do money transaction
+    - I want to transfer some amount to someone
+    - I'd like to transfer sixty dollars from my checking account
+    - I want to wire two hundred dollars from my checking account
+    - I want to make a transfer of one hundred fifty dollars to my savings account
+    - Can I please transfer some money between my accounts
+    - I just want to send a hundred dollars to my savings
+    - I want to make a wire transfer
+    - Is it possible to transfer money online
+    - Are online transfers available
+    - How can I transfer money
+    - What do I need to do to transfer some money between my accounts
+    - I want to transfer money to my wife's account
+    - I want to make a transfer today
+    - Transfer money
+    - Transfer money to Alex
+- intent: crypto_currency
+  examples: |
+    - Bitcoin
+    - Ethereum
+    - XRP
+    - Tether
+    - Litecoin
+    - Bitcoin Cash
+    - Chainlink
+    - Cardano
+    - Polkadot
+    - Binance Coin
+    - Stellar
+    - Bitcoin SV
+    - Dogecoin
+    - litecoin
+- intent: show_accounts
+  examples: |
+    - please list my accounts
+    - please show my accounts
+    - please get all my accounts
+    - show me my accounts details
+    - Display My Accounts
+    - Show accounts
+    - List my accounts
+    - List my account
+    - Can I check my account number
+    - can I have a look at my accounts
+    - Show my account details
+    - My accounts
+    - I’d like to see all my accounts
+    - Can I view my accounts
+    - Make a list of my accounts
+    - show my account numbers
+    - I want to see my accounts
+    - I would like to see all my accounts
+    - Display my bank account
+    - Overview of Accounts
+    - Show all my accounts
+    - please show my account summary
+    - please show my account balance
+    - information about account
+    - info on account
+    - show the details of my account
+    - List out all my accounts
+    - Fetch my accounts details
+    - get me my accounts information
+    - Please retrieve my accounts information
+- intent: show_credit_cards
+  examples: |
+    - please show my credit cards
+    - please list my credit cards
+    - show me my credit cards details
+    - what is my credit cards outstanding
+    - Display My Cards
+    - List my credit cards
+    - i need to see my credit cards
+    - Can I have access to a credit cards
+    - My credit cards
+    - I want to see my credit card details
+    - I’d like my credit cards displayed
+    - Can I see all my credit cards
+    - Show my cards
+    - Display Credit Cards
+    - Show Credit Cards
+    - Could you show me my credit cards
+    - I would like to see my credit cards
+    - Credit cards information
+    - Display my credit cards
+    - Credit Card Overvuew
+    - Show all my credit cards
+    - show my credit cards
+    - what all credit cards do I have?
+    - List out all my credit cards
+    - I want to see list of all my credit cards
+    - I would like to see information of all my credit cards
+- intent: show_statement
+  examples: |
+    - Please show me my bank statement
+    - I would like to see my bank statement
+    - Show me my all my transactions
+    - Give me a list of my statement history
+    - Can you provide me my bank statement?
+    - Extract Statements
+    - Print statements
+    - i want to see my statements
+    - Can I have a look at my statement please
+    - Display my statements
+    - My statement
+    - I’d like to see my statement
+    - I want to see my statement
+    - Please extract statement of my movements
+    - Make a statement
+    - Display Statements
+    - Show statements
+    - Show account movements
+    - Could you show me my statements
+    - I would like to see my statements
+    - Show my statements
+    - Account Transaction overview
+    - Show my account statements
+    - Please show my bank entries.
+    - Please show my debits and credits.
+    - Can I have a look at my receipts and payments?
+    - Can I see my inflows and outflows?
+    - Please show me my transaction history
+    - Please retieve my transaction log
+    - I would like to see my bank account statement history
+- intent: interest_rate
+  examples: |
+    - yeah hi what is the current interest rate for loans
+    - what's the interest rate for a 30 year mortgage
+    - what's the availavble interest rate for mortgages today
+    - what's the interest rate for your golden credit cards
+    - what's the interest rate for your credit card
+    - What's the best interest rate I can get within your bank
+    - I need to borrow some money so I want to know the interest rates
+    - What are the interest rates if I ask for one hundred thousand
+- intent: lost_card
+  examples: |
+    - i've lost my card
+    - I don't know where my card is
+    - I have no idea where've left my card
+    - I left my card somewhere and now I need to cancel it
+    - I really don't remember where my card is
+    - I'm afraid I don't know where my card is
+    - I've lost my credit card and I don't think I will find it again
+    - My card is gone I must have left it somewhere
+    - I'm afraid someone took my card so I'd better cancel it
+    - I have no clue where is my card
+    - Can't find my card don't know what to do
+    - Can't find my card what should I do
+- intent: change_pin
+  examples: |
+    - I don't remember my pin and need to change it
+    - I want to change my pin because I can't remember it.
+    - How can I change my pin over the phone
+    - Is it possible to change my card's pin online
+    - Could you help me resetting my pin
+    - Can I get a new pin number for my card
+    - What do I need to do to get a new pin number
+    - How can I restore the secret code of my card
+    - I lost my card's secret number now I can't use it anymore
+    - Where can I find my card's pin
+    - Where can I find my card's secret code
+    - I think someone discovered my pin and I want to change it
+    - I want to change the secret digits to access my credit card.
+- intent: retirement_plan
+  examples: |
+    - I want to apply to a retirement savings plan
+    - What are the available plans for retirement in your bank
+    - what's the best RSP available in your products
+    - Do you offer retirement savings plans
+    - I want to invest some money for my retirement
+- intent: online_banking
+  examples: |
+    - I want to get access to online banking
+    - What can I do in the online banking
+    - How can I benefit from your online banking
+    - Do you have a mobile app for online banking
+    - Can I make transfer online
+    - Can I check my balance online
+    - I want to get a password for online banking
+    - What are the things I can do online and not over the phone
+    - Are there things that I can only do online?
+    - Please retrieve my transaction log
+    - I would like to see my bank account statement history
+
+- intent: locate_car_dealer
+  examples: |
+    - Show me the closest car dealer, please
+    - I'd like to go to an automobile dealer to buy a car, tell me the closest one, please
+    - i want to buy a car, show me the nearest car dealership, please
+    - I'd go to a showroom car, show me one please
+    - I have no time and I'm looking for a nearby automotive dealer, please
+    - I'm looking for a nearby car dealer, please
+    - Give me the adress about the nearest automobile dealer, please
+    - I need to buy a car let me see the adress of a car dealership, please
+    - Let me see a showroom car, please
+    - I need a car, show me the nearest automotive dealer, please
+- intent: choose_car_type
+  examples: |
+    - I'd like a sport car, please
+    - I'd like to buy a city car, please
+    - I would drive a sedan, please
+    - I want for me and my family a suv, please
+    - I like feeling air on my hair, so cabriolet it's the right choice for me!
+    - For my family I need a station wagon, please
+    - I need a city car to reach my workplace, please
+    - I like to drive fast and I'd like to buy a coupè, please
+    - I prefer a sedan, please
+    - I live in a countryside and a pickup is the right choice for me, please
+    - I'd like a electric car, please
+    - I prefer a hybrid, please
+- intent: choose_nationality_car
+  examples: |
+    - I would an european car, please
+    - I would to drive an american car, please
+    - I want to buy a japanese car, please
+    - I love german cars, please
+    - I prefer italian cars, please
+    - I would buy an american car, please
+    - I love italian cars, please
+    - I prefer to ride an italian car, please
+    - I trust in reliability of german cars, please
+    - I'd buy a japanese car, please
+- intent: choose_budget
+  examples: |
+    - I want to save money for a car, please
+    - I have no problem, I'm able to spend lot of money for my car, please
+    - I don't want to spend much more for a car, less than 10.000 eur, please
+    - I love car and I'm willing to spend lot money, please
+    - Buy a car it's not an investment for me, so less than 15.000 eur I want to spend for one, please
+    - For a car that I like I'm able to spend up to 50.000 eur, please
+    - I want to save money, so a cheap car for me, please
+    - I would save money for my next car, please
+    - I want to spend less then 20.000 eur for the next auto, please
+    - I would spend up to 30.000 eur for my vehicle, please
+- intent: choose_age_of_car
+  examples: |
+    - I prefer an used car, please
+    - I'd like a new car, please
+    - I'd like to try a leasing, please
+    - I don't drive a lot, so I prefer a used car, please
+    - I travel a few kilometers in a year so a second hand car it's enough for me, please
+    - I would an used car as a second car for my family, please
+    - I prefer a fresh car because I want to keep it for long time, please
+    - I would a leasing car for my job, please
+    - I prefer an old car for myself, please
+    - I'd like a recent car for my family, please
+
+- intent: Computer_Science_Courses
+  examples: |
+    - C++ Programming
+    - Python Programming
+    - Java Programming
+    - HTML / CSS
+    - Java Script
+    - Web Development
+    - Android Development
+    - Artificial Intelligence
+    - Deep Learning
+    - Machine Learning
+    - Data Science
+    - Operating System
+    - Networking
+    - Cyber Security
+    - Blockchain
+- intent: Management_Courses
+  examples: |
+    - Banking and Finance
+    - Finance
+    - Human Resource
+    - Marketing
+    - Consulting
+    - Digital Marketing
+    - Business Analytics
+    - Operations
+    - Product Management
+    - Project Management
+    - Policy Making
+- intent: Literature_Courses
+  examples: |
+    - English Literature
+    - French Literature
+    - Latin Literature
+    - Hindi Literature
+    - Sanskrit Literature
+    - German Literature
+- intent: internet_is_slow_fixing_internet
+  examples: |
+    - spotty internet
+    - slow internet connection
+    - sluggish internet connection
+    - slow internet speeds
+    - slow internet speed
+    - bad internet speed
+    - low internet speeds
+    - bad internet speeds
+    - internet is slow
+    - ping is high
+    - latency is high
+    - web page is slow to load
+- intent: no_internet_fixing_internet
+  examples: |
+    - no internet
+    - no internet signal
+    - internet is down
+    - my home has no internet
+    - no internet connection
+    - web page is not loading
+    - network outage
+- intent: no_wifi_fixing_internet
+  examples: |
+    - no wifi
+    - no wifi signal
+    - no wifi connection
+    - wifi is down
+    - wi-fi is down
+    - wifi network is down
+    - wireless network is down
+    - not able to connect to the wifi
+- intent: need_new_router_fixing_internet
+  examples: |
+    - need a new router
+    - need a new wireless router
+    - router is dead
+    - need a stronger router
+    - cannot connect more devices
+- intent: mood_happy
+  examples: |
+    - I am happy
+    - I feel great
+    - I'm fine
+    - I had a great day
+    - Me, wonderful!
+    - I am amazed
+    - You are too cool
+    - I am loving it
+    - I am starting to like this
+    - I am feeling great
+    - Doing fine
+    - Never better
+    - Feeling lucky
+    - All great here
+    - Fantastic day
+    - What a great day
+    - I'm inspired
+    - It's perfect
+    - amazing
+    - I feel wonderful
+    - I am feeling very good
+    - I am great
+    - I'm good
+    - I'm feeling awesome
+    - I'm feeling happy
+    - Today is an awesome day!
+    - I'm so glad
+    - I'm just really happy right now
+- intent: mood_unhappy
+  examples: |
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - my day was horrible
+    - This is bad
+    - I am sick
+    - I am ill
+    - I am all low today
+    - Its dissapointing
+    - How irritating it is
+    - Am irritated
+    - I am not feeling well
+    - This sucks!
+    - I am feeling too bad
+    - Worst day ever!
+    - This feels bad
+    - I feel low
+    - Everything is bad today
+    - I feel very sad
+    - Feels horrible
+    - This is depressing
+    - I am depressed
+    - I feel bored
+    - I am feeling bored
+    - life is boring
+    - I am feeling empty
+    - I feel useless
+    - aweful
+    - depressed
+    - heavy
+    - I am feeling quite lost
+    - very sad
+    - unhappy
+    - bad
+    - very bad
+    - awful
+    - terrible
+    - not very good
+    - extremely sad
+    - so sad
+    - Im feeling down
+    - I'm feeling sad
+    - Im feeling sad
+    - Im not okay
+    - Im feeling low
+    - Not good
+    - I'm awful
+    - I'm feeling very sad
+    - I'm uneasy
+    - Actually I'm not fine
+    - I'm not good
+    - I am as lonely as can be
+    - I am going through a rather rough time
+    - I'm grieving
+- intent: mood_angry
+  examples: |
+    - I am angry
+    - I am feeling so angry
+    - I am so annoyed
+    - It's annoying
+    - That's aggravating
+    - I'm furious
+    - That is infuriating
+    - I'm very mad
+    - Everything vexes me
+    - I am outraged
+    - That is outrageous!
+    - I feel hostile
+    - I am very frustrated
+    - It is irritating me
+    - I feel so offended
+    - I am full of fury
+    - I feel very belligerent
+    - I hate doing this
+    - I have no patience today
+    - I could not control my anger
+    - I’m annoyed
+    - I’m super annoyed
+    - I’m so mad.
+    - I'm enraged
+    - I’m straight up angry.
+    - This is maddening!
+    - I'm pissed off
+    - I'm pissed
+    - You bet I'm angry
+    - That made me angry
+    - U made me angry
+    - I'm still angry about that
+- intent: mood_scared
+  examples: |
+    - I am scared
+    - I feel scared
+    - I'm worried
+    - I am terrified
+    - That is frightening
+    - I feel intimidated
+    - That is intimidating
+    - I am petrified
+    - I am afraid
+    - I feel anxious
+    - I'm having a bad feeling
+    - I'm fearful
+    - I panicked
+    - I shrank back in fear
+    - I am scared to death
+    - I broke out in a cold sweat
+    - That startled me!
+    - I'm spooked easily
+    - I'm trembling from fear
+    - I'm horrified
+- intent: mood_nervous
+  examples: |
+    - I am nervous
+    - I am stressed out
+    - I feel nervous
+    - I am anxious
+    - I feel anxious
+    - This is nerveracking
+    - This is nervewracking
+    - This is nerve racking
+    - This is nerve wracking
+    - I feel like I am going to throw up
+    - I have a lump in my throat
+    - I have butterflies in my stomach
+    - I am a bundle of nerves
+    - I am breaking out in a cold sweat
+    - I am afraid of my own shadow
+    - I am like a cat on hot bricks
+    - I am jumping out of my skin
+    - I am at my wits' end
+    - I am tongue tied
+    - I am on edge
+    - I am very tense
+    - I feel uneasy
+    - I am alarmed
+    - I am troubled
+    - I'm tensed
+    - I'm stressed
+    - I'm under a lot of stress
+    - I'm constantly worried
+    - I feel constant tension
+    - I’m anxious.
+    - I’m suffering from anxiety.
+    - I’ve been feeling rather anxious lately.
+    - My anxiety is rather through the roof these days.
+    - I’m feeling rather restless
+    - I cannot concentrate as I'm worried constantly
+    - I'm under immense stress
+    - It's been a rough couple of days. VERY stressful
+    - I'm quite tensed.
+    - There's been quite a few changes in my life. I don't think I am handling them well. It's quite stressful.
+    - I find myself worrying about every little detail
+    - I am a chronic worrier.
+    - I’m feeling rather restless and a horde of worries is bothering me
+    - I cannot concentrate due to the whole number of worries that are bothering me
+- intent: mood_bored
+  examples: |
+    - soo bored
+    - that was boring
+    - I'm bored
+    - bored
+    - boring
+    - I am getting bored
+    - Staying at home is boring
+    - very boring
+    - it bores me
+    - i had a slow day
+    - i am very bored
+    - Im kinda bored today
+    - I've never been more bored
+    - I was bored
+    - It's boring
+    - This is boring
+    - We're all bored
+    - It's very boring
+    - I'm already bored
+    - I'm bored out of my mind
+- intent: mood_excited
+  examples: |
+    - I am excited
+    - I'm really excited
+    - I can't begin to say how excited I am
+    - I'm thrilled
+    - I'm damn excited
+    - I'm hyped
+    - I'm very excited
+    - I felt excited
+    - It was exciting
+    - That was exciting
+    - How exciting!
+    - This is so fun
+- intent: mood_lonely
+  examples: |
+    - I am lonely
+    - I'm very lonely
+    - I'm so lonely
+    - I'm really lonely
+    - I am feeling lonely
+    - I feel lonely
+    - I am a loner
+    - I don't have any company
+    - I don't have anyone else
+    - I'm always alone
+    - I'm alone
+    - am all alone
+    - I live alone
+    - I'm all alone
+    - I've gotten used to living alone
+    - I think I've been living alone too long
+    - I have no one to talk to
+    - I am still alone
+    - I am used to living alone
+- intent: mood_tired
+  examples: |
+    - I'm drained
+    - I've overworked
+    - I am tired
+    - I'm exhausted
+    - I grow weary
+    - I'm worn out
+    - I'm getting tired
+    - I feel tired
+    - I'm so tired
+    - I'm completely drained out
+    - I'm very tired
+    - i was tired
+    - i feel tired
+    - i'm dead tired
+    - I'm a bit tires
+    - I was very tired
+    - I am really tired
+    - i am awfully tired
+    - i am kind of so tired
+    - I am little tired
+- intent: locate_restaurant
+  examples: |
+    - suggest me the closest restaurant
+    - restaurants near me
+    - locate a restaurant near me
+    - find me a restaurant
+    - restaurants
+    - Can you find me a restaurant near me
+    - Show me the closest restaurant, please
+    - Give me the adress about the nearest restaurant, please
+    - Let me know the nearest restaurant
+    - suggest me a restaurant in rome
+    - restaurants in mumbai
+    - best restaurants in delhi
+    - good restaurant downtown
+    - great restaurant uptown
+- intent: restaurant_type
+  examples: |
+    - I would like to visit an italian restaurant
+    - A family restaurant
+    - mexican
+    - Indian
+    - Chinese restaurant
+    - any restaurant
+    - I would like to visit a multicusine restaurant
+    - restaurant with a bar
+    - restaurant above 4 stars
+    - restaurant in open area
+    - kid-friendly restaurant
+    - restaurant with great ambience
+    - highest rated restaurant
+    - dinning with a view
+    - restaurant on a terrace
+    - fusion restaurant
+- intent: table_reservation
+  examples: |
+    - Book a table for two people
+    - Book a table for 2 people
+    - table for 10 persons
+    - table for six
+    - table near the pool side
+    - table for four with an child seating
+    - table for a couple
+    - couple
+    - table with high chairs
+    - table in the corner
+    - table with a booth
+- intent: restaurant_review
+  examples: |
+    - restaurant was awesome
+    - food was great
+    - ambience was amazing
+    - service was okay
+    - add to my favourites
+    - give a 3.5 star
+    - average
+    - worst experience
+    - food was good was service wasnt
+    - the waiter was rude
+    - the meal was delicious
+    - food was exquisite
+- intent: show_my_order_status
+  examples: |
+    - I would like to know my order status
+    - Where is my order
+    - When I will get the delivery
+    - Where is my delivery
+    - When will I receive my order
+- intent: finish_and_pay_retail
+  examples: |
+    - Can I checkout
+    - I'm ready to checkout
+    - My cart is ready
+    - I'm finished shopping
+    - Can I pay with a credit card
+- intent: need_more_time_retail
+  examples: |
+    - I'm not ready yet
+    - I need more time
+    - Let me think
+    - I'm unsure
+    - one moment
+    - one second
+    - one minute
+    - hold on
+- intent: greet_smalltalk
+  examples: |
+    - hi
+    - hello
+    - howdy
+    - hey
+    - heya
+    - hihi
+    - sup
+    - what's up
+    - hey there
+    - hello buddy
+    - wazzup
+    - yo
+- intent: goodbyes_smalltalk
+  examples: |
+    - goodbye
+    - bye
+    - see you later
+    - talk to you later
+    - cya
+    - ciao
+- intent: affirm_smalltalk
+  examples: |
+    - yes
+    - yep
+    - yeah
+    - indeed
+    - that's right
+    - ok
+    - great
+    - correct
+    - perfect
+    - sounds good
+    - sounds great
+- intent: deny_smalltalk
+  examples: |
+    - no
+    - nope
+    - no way
+    - not true
+    - no thanks
+    - nah
+    - never
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a robot?
+    - am I talking to an actual person?
+    - you're a bot aren't you?
+    - are you even a real person?
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a robot?
+    - am I talking to an actual person?
+    - you're a bot aren't you?
+    - are you even a real person?
+- intent: type_weather
+  examples: |
+    - air
+    - black clouds
+    - blinding snowstorm
+    - blizzard
+    - breath of air
+    - breeze
+    - breezy
+    - bright
+    - chilly
+    - clear
+    - clear skies
+    - clear sky
+    - cloud
+    - cloudy
+    - cold
+    - cold biting wind
+    - cold wind
+    - cool
+    - cyclone
+    - damp
+    - dark
+    - dark clouds
+    - dense clouds
+    - dew
+    - downpour
+    - drizzle
+    - dry
+    - dull
+    - dust storm
+    - flooded
+    - flooded roads
+    - fog
+    - foggy
+    - forecast
+    - freeze
+    - freezing
+    - freezing rain
+    - fresh
+    - frost
+    - frosty
+    - gale
+    - gust of wind
+    - gusty
+    - hail
+    - hailing
+    - hailstone
+    - hailstorm
+    - hazy
+    - heat
+    - heat wave
+    - heavy grey clouds
+    - heavy winds
+    - hot
+    - humid
+    - humidity
+    - hurricane
+    - icy
+    - it lightens
+    - it rains cats and dogs
+    - it thunders
+    - lightning
+    - mist
+    - misty
+    - moderate wind
+    - monsoon
+    - moon
+    - muggy
+    - overcast
+    - partly cloudy
+    - partly sunny
+    - precipitation
+    - pressure
+    - puff of wind
+    - rain
+    - rain and snow
+    - rain showers
+    - raindrop
+    - rainfall
+    - raining
+    - rainy
+    - sandstorms
+    - scattered showers
+    - shine
+    - shower
+    - showers
+    - sky
+    - sleet
+    - slight wind
+    - smoggy
+    - snow
+    - snowdrift
+    - snowfall
+    - snowflake
+    - snowing
+    - snowstorm
+    - snowy
+    - squall
+    - star
+    - sticky
+    - storm
+    - stormy
+    - strong wind
+    - sultry
+    - sun
+    - sunny
+    - sunny intervals
+    - sunshine
+    - thunder
+    - thunder-cloud
+    - thundershowers
+    - thunderstorm
+    - thunderstorms
+    - to pour
+    - tornado
+    - tornadoes
+    - twister
+    - typhoon
+    - very strong wind
+    - warm
+    - weather
+    - wet
+    - whirlwind
+    - wind
+    - windstorm
+    - windy
+- intent: temperature_weather
+  examples: |
+    - above zero
+    - atmospheric absolute pressure
+    - average temperature
+    - barometer
+    - below freezing
+    - below zero
+    - degrees
+    - degrees above zero
+    - degrees below zero
+    - degrees Celsius
+    - degrees centigrade
+    - degrees Fahrenheit
+    - humidity
+    - mercury
+    - pressure
+    - synoptic
+    - temperature
+    - temperatures are in the mid
+    - thermometer
+    - usual temperature
+    - weather
+    - weather forecast
+    - weather station
+    - weatherman
+    - wind chill
+    - windchill
+- intent: ask_forecast_weather
+  examples: |
+    - Anybody notice the weather today?
+    - Are the roads flooded today?
+    - Awful weather, isn’t it?
+    - Do you know the weather forecast for today?
+    - Do I need to carry an umbrella today?
+    - Do I need to carry an umbrella tomorrow?
+    - How is the weather today?
+    - How cold is it going to get today?
+    - How cold is it going to be tomorrow?
+    - How hot is it going to get today?
+    - How hot is it going to be tomorrow?
+    - How humid is it going to get today?
+    - How humid is it going to be tomorrow?
+    - How rainy is it going to be today?
+    - How rainy is it going to be tomorrow?
+    - How’s the weather?
+    - How's the weather out in the country today?
+    - I wonder if there will be a storm?
+    - Is it cold outside?
+    - Is it expected to rain?
+    - Is it expected to snow?
+    - Is it snowing outside?
+    - Is it warm or cold?
+    - Is it windy out?
+    - It is so cloudy today, isn’t it?
+    - It is so sunny today, isn’t it?
+    - Is there much flooding on the roads today?
+    - Lovely day, huh?
+    - Nice weather today, isn’t it?
+    - So, what will the weather be like today?
+    - Tell me, what is the weather like today?
+    - Terrible weather, isn’t it?
+    - The forecast?
+    - What do you think the weather looks like?
+    - What is the humidity level right now?
+    - What is the temperature outside?
+    - What is the temperature?
+    - What is the weather expected to be like?
+    - What is the weather forecast saying?
+    - What is the weather forecast today?
+    - What is the weather today?
+    - What temperature do you think it is?
+    - What’s it like out there?
+    - What’s it like out?
+    - What's the humidity level right now?
+    - What’s the temperature like out there?
+    - What’s the temperature like?
+    - What’s the temperature today?
+    - What’s the temperature?
+    - What’s the weather forecast?
+    - What’s the weather like?
+    - What's the forecast like?
+    - What's the forecast?
+    - What's the weather like today?
+    - Will the weather keep up?
